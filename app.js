@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 
-// Health Check - comment 20/09/2023
+// Health Check - comment 20/09/2023 - 15:45
 var health = require('@cloudnative/health-connect');
 let healthCheck = new health.HealthChecker();
 
